@@ -2,8 +2,6 @@
 
 class Person
 {
-
-    private $id;
     private $name;
     private $surname;
     private $age;
@@ -14,11 +12,6 @@ class Person
     private $address1;
     private $address2;
     private $gender;
-
-    public function getId()
-    {
-        return $this->id;
-    }
 
     public function getName()
     {
@@ -68,11 +61,6 @@ class Person
     public function getGender()
     {
         return $this->gender;
-    }
-
-    public function setId($id)
-    {
-        $this->id = $id;
     }
 
     public function setName($name)
