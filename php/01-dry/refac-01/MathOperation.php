@@ -2,6 +2,7 @@
 
 class MathOperation
 {
+
     public function multiply(... $numbers)
     {
         $total = 1;
@@ -12,4 +13,5 @@ class MathOperation
 
         return $total;
     }
+
 }

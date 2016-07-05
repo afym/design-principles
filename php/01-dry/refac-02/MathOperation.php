@@ -2,6 +2,7 @@
 
 trait MathOperation
 {
+
     public function multiply(... $numbers)
     {
         $total = 1;
@@ -12,4 +13,5 @@ trait MathOperation
 
         return $total;
     }
+
 }

@@ -2,6 +2,7 @@
 
 class Parallelogram extends Shape
 {
+
     private $base;
     private $height;
 
@@ -13,6 +14,7 @@ class Parallelogram extends Shape
 
     public function getArea()
     {
-         return $this->multiply($this->base, $this->height);
+        return $this->multiply($this->base, $this->height);
     }
+
 }

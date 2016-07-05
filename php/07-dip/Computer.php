@@ -22,7 +22,9 @@ class Computer
         $this->memory = new Memory($capacity, 'MB');
     }
 
-    public function resume(){
+    public function resume()
+    {
         return "PC : CPU {$this->cpu->getCores()} cores {$this->cpu->getClock()} {$this->cpu->getUnit()},  Memory : {$this->memory->getCapacity()} MB";
     }
+
 }

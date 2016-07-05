@@ -2,6 +2,7 @@
 
 class PhoneNumber
 {
+
     private $areaCode;
     private $lineNumber;
 
@@ -9,4 +10,20 @@ class PhoneNumber
     {
         return $this->areaCode;
     }
+
+    public function getLineNumber()
+    {
+        return $this->lineNumber;
+    }
+
+    public function setAreaCode($areaCode)
+    {
+        $this->areaCode = $areaCode;
+    }
+
+    public function setLineNumber($lineNumber)
+    {
+        $this->lineNumber = $lineNumber;
+    }
+
 }

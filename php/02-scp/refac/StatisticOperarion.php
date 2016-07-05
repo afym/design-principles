@@ -41,4 +41,5 @@ class StatisticOperarion
     {
         return ($sumValues / $total);
     }
+
 }

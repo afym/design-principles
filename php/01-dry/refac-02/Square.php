@@ -2,6 +2,7 @@
 
 class Square extends Shape
 {
+
     private $side;
 
     public function __construct($side)
@@ -11,6 +12,7 @@ class Square extends Shape
 
     public function getArea()
     {
-         return $this->multiply($this->side, $this->side);
+        return $this->multiply($this->side, $this->side);
     }
+
 }

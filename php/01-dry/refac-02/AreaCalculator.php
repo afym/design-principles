@@ -2,6 +2,7 @@
 
 class AreaCalculator
 {
+
     private $shape;
 
     public function __construct(Shape $shape)
@@ -13,4 +14,5 @@ class AreaCalculator
     {
         return $this->shape->getArea();
     }
+
 }

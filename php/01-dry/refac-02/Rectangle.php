@@ -2,6 +2,7 @@
 
 class Rectangle extends Shape
 {
+
     private $width;
     private $length;
 
@@ -13,6 +14,7 @@ class Rectangle extends Shape
 
     public function getArea()
     {
-         return $this->multiply($this->width, $this->length);
+        return $this->multiply($this->width, $this->length);
     }
+
 }

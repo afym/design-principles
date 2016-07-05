@@ -2,6 +2,7 @@
 
 class Area
 {
+
     private $operations;
 
     public function __construct(MathOperation $operations)
