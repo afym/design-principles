@@ -1,7 +1,5 @@
 <?php
 
-require_once './OperationContract.php';
-
 class AuthController implements OperationContract
 {
 
@@ -12,7 +10,7 @@ class AuthController implements OperationContract
         return true;
     }
 
-    public function addAction()
+    public function deleteAction()
     {
         throw new Exception("No add action implemented ...");
     }

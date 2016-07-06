@@ -1,9 +1,5 @@
 <?php
 
-require_once './Product.php';
-require_once './Book.php';
-require_once './Pencil.php';
-
 class Order
 {
 

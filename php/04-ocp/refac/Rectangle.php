@@ -1,6 +1,6 @@
 <?php
 
-class Rectangle extends ShapeAbstract
+class Rectangle extends BaseShape
 {
 
     private $width;
@@ -14,7 +14,7 @@ class Rectangle extends ShapeAbstract
 
     public function getArea()
     {
-        return $this->multiply($this->width, $this->length);
+        return $this->width * $this->length;
     }
 
 }

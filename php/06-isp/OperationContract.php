@@ -7,7 +7,7 @@ interface OperationContract
 
     public function listAction();
 
-    public function addAction();
+    public function deleteAction();
 
     public function editAction();
 

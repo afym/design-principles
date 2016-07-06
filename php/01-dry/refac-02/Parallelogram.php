@@ -1,6 +1,6 @@
 <?php
 
-class Parallelogram extends Shape
+class Parallelogram extends ShapeAbstract
 {
 
     private $base;

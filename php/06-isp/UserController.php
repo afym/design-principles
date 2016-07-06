@@ -1,7 +1,5 @@
 <?php
 
-require_once './OperationContract.php';
-
 class UserController implements OperationContract
 {
 
@@ -10,9 +8,9 @@ class UserController implements OperationContract
         throw new Exception("No add action implemented ...");
     }
 
-    public function addAction()
+    public function deleteAction()
     {
-        return "use add ...";
+        return "use delete ...";
     }
 
     public function createAction()

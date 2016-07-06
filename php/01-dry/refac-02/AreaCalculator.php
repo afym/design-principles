@@ -5,7 +5,7 @@ class AreaCalculator
 
     private $shape;
 
-    public function __construct(Shape $shape)
+    public function __construct(ShapeAbstract $shape)
     {
         $this->shape = $shape;
     }

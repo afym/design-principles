@@ -13,9 +13,8 @@ $pencil = new Pencil();
 $pencil->setPrice(11.00);
 
 $order = new Order();
-$order->addBook($book1);
-$order->addBook($book2);
-$order->addPencil($pencil);
-
+$order->addProduct($book1);
+$order->addProduct($book2);
+$order->addProduct($pencil);
 
 echo "Total : {$order->getTotal()} money units";

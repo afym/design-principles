@@ -1,6 +1,6 @@
 <?php
 
-class Square extends Shape
+class Square extends ShapeAbstract
 {
 
     private $side;

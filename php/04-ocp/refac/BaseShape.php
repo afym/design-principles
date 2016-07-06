@@ -1,9 +1,7 @@
 <?php
 
-abstract class Shape
+abstract class BaseShape
 {
-
-    use MathOperation;
 
     abstract public function getArea();
 }
